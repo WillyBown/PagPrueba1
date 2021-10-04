@@ -8,7 +8,7 @@
             body{
                 background-image: url('imgs/fondo.jpg');
                 background-repeat: no-repeat;
-                background-attachment: fixed;   
+                background-attachment: fixed;
                 background-position: center;
             }
             p{
@@ -16,55 +16,95 @@
                 font-size: 150%;
                 width: 560px;
             }
+            .flex-container{
+                display:flex;
+                flex-flow: column wrap;
+                padding: 10px;
+                align-content: center;
+                margin: 10px
+                justify-content: center;
+            }
+            .flex-container div{
+                display:flex;
+                flex-wrap: wrap;
+                background-color: brown;
+                margin: 10px;
+                padding: 30px;
+                border: 2px solid black;
+                align-content: center;
+            }
         </style>
     </head>
 
     <body>
+        <!--/barra navegacion-->
         <div align="right" >
             <a href="index.html" style="color:red">Home</a>
             <a href="comentario.html" style="color:red">Comenta</a>
             <a href="login.html" style="color:red">Login</a>
         </div>
+        <!--/barra navegacion-->
         <center>
+            <!--Header-->
             <h1 style="color:gold" align="middle" >Pentakill: Lost Chapter</h1>
-
-            <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner"><br>
-
-            <div style="margin:20px" align="middle">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5IWS7Y5KRhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p  width="560" align="center">
-                    <i>"Cancion que le da nombre al album"</i>
-                </p>
-                <img  width="560" height="315" src="imgs/pentakill skins.jpg" alt="Pentakill skins">
-                <p  align="center">
-                    <i>"Skins tematicas del album"</i>
-                </p>
-                <p style="color:gold" align="justify">
-                    Riot lanzo hace relativamente poco el 3° album de pentakill llamado lost chapter, junto con un
-                    evento interactivo en el que toda la comunidad podia participar, y un conjunto de skins tematicas
-                    de la banda. <br><br>
-                    El disco consta de 10 pistas que contará con el sonido característico de Pentakill que nos
-                    ofrecerá canciones sobre gloria y destrucción abrazando además diversos subgéneros del metal gracias
-                    a las voces de Karthus y Kayle, la guitarra de Mordekaiser, el bajo de Yorick, la batería de Olaf y
-                    el teclado de Sona. <br><br>
-
-                    Además, el equipo que ha participado en el disco incluye al conocido vocalista de rock y metal
-                    Jorn Lande (Masterplan), la voz de Karthus; a la cantante Noora Louhimo (Battle Beast) para dar
-                    voz a Kayle; y a Per Johansson (Periphery). Además, a la increíble plantilla de Riot para Lost
-                    Chapter se han unido Tyler "TELLE" Smith (The Word Alive), Adam "Nolly" Getgood (Periphery),
-                    Benjamin Ellis (Bloodshot Dawn), el teclista Jose "Atlan" Aranda y el violinista Ray Chen. <br><br>
-
-                    Los temas se encuentran en plataformas como Spotify y Youtube, personalmente te recomiendo
-                    "executioners calling" y "edge of the night", si eres fan del metal este album no te decepcionara
-                    para nada. <br><br>
-                </p>
-
+            <div class="flex-container">
+                <div>
+                <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner">
+                </div>
             </div>
+            <!--/Header-->
+            <!--Contenido-->
+            <div style="margin:20px" align="middle">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5IWS7Y5KRhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p  width="560" align="center">
+                        <i>"Cancion que le da nombre al album"</i>
+                    </p>
+
+
+
+                    <img  width="560" height="315" src="imgs/pentakill skins.jpg" alt="Pentakill skins">
+                    <p  align="center">
+                        <i>"Skins tematicas del album"</i>
+                    </p>
+
+
+                    <div class="flex-container">
+                        <div>
+                        <p style="color:gold" align="justify">
+                        Riot lanzo hace relativamente poco el 3° album de pentakill llamado lost chapter, junto con un
+                        evento interactivo en el que toda la comunidad podia participar, y un conjunto de skins tematicas
+                        de la banda. <br><br>
+                        El disco consta de 10 pistas que contará con el sonido característico de Pentakill que nos
+                        ofrecerá canciones sobre gloria y destrucción abrazando además diversos subgéneros del metal gracias
+                        a las voces de Karthus y Kayle, la guitarra de Mordekaiser, el bajo de Yorick, la batería de Olaf y
+                        el teclado de Sona. <br><br>
+
+                        Además, el equipo que ha participado en el disco incluye al conocido vocalista de rock y metal
+                        Jorn Lande (Masterplan), la voz de Karthus; a la cantante Noora Louhimo (Battle Beast) para dar
+                        voz a Kayle; y a Per Johansson (Periphery). Además, a la increíble plantilla de Riot para Lost
+                        Chapter se han unido Tyler "TELLE" Smith (The Word Alive), Adam "Nolly" Getgood (Periphery),
+                        Benjamin Ellis (Bloodshot Dawn), el teclista Jose "Atlan" Aranda y el violinista Ray Chen. <br><br>
+
+                        Los temas se encuentran en plataformas como Spotify y Youtube, personalmente te recomiendo
+                        "executioners calling" y "edge of the night", si eres fan del metal este album no te decepcionara
+                        para nada.
+                        </div>
+                    </p>
+                    </div>
+            </div>
+            <!--/Contenido-->
+            <!--Footer-->
             <img src="imgs/logo pentakill.png" alt="logo pentakill">
-            <p style="font-size: 100%">
-                Pagina creada por: Willy Bown <br>
-                disculpen si me equivoque en algo que dormi 4 horas con suerte
-            </p>
+            <div class="flex-container">
+                <div>
+                <p style="font-size: 100%">
+                    Pagina creada por: Willy Bown <br>
+                    disculpen si me equivoque en algo que dormi 4 horas con suerte
+                </p>
+                </div>
+            </div>
+            <!--/Footer-->
         </center>
 
 

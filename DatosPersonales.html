@@ -8,13 +8,30 @@
                 body{
                     background-image: url('imgs/fondo.jpg');
                     background-repeat: no-repeat;
-                    background-attachment: fixed;   
+                    background-attachment: fixed;
                     background-position: center;
                 }
                 p{
                     color:gold;
                     font-size: 150%;
                     width: 560px;
+                }
+                .flex-container{
+                    display:flex;
+                    flex-flow: column wrap;
+                    padding: 10px;
+                    align-content: center;
+                    margin: 10px
+                    justify-content: center;
+                }
+                .flex-container div{
+                    display:flex;
+                    flex-wrap: wrap;
+                    background-color: brown;
+                    margin: 10px;
+                    padding: 30px;
+                    border: 2px solid black;
+                    align-content: center;
                 }
             </style>
         </head>
@@ -30,12 +47,16 @@
         <!--/barra navegacion-->
         <!--Header-->
         <h1 style="color:gold" align="middle" >Pentakill: Lost Chapter</h1>
-        <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner"><br>
+        <div class="flex-container">
+            <div>
+            <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner">
+            </div>
+        </div>
         <!--/Header-->
         <!--Contenido-->
         <center style="margin:20px">
 
-            <h2 style="color:gold" align="middle">Login</h2>
+            <h2 style="color:gold" align="middle">Datos personales</h2>
             <form style="color:gold" >
                 Direccion:               <input type="text" name="Direccion"> <br>
                 Fecha de nacimiento:     <input type="date" name="Fecha de Nacimiento"><br>
@@ -62,10 +83,14 @@
             <!--/Contenido-->
             <!--Footer-->
             <img src="imgs/logo pentakill.png" alt="logo pentakill">
-            <p style="font-size: 100%">
-                Pagina creada por: Willy Bown <br>
-                disculpen si me equivoque en algo que dormi 4 horas con suerte
-            </p>
+            <div class="flex-container">
+                <div>
+                <p style="font-size: 100%">
+                    Pagina creada por: Willy Bown <br>
+                    disculpen si me equivoque en algo que dormi 4 horas con suerte
+                </p>
+                </div>
+            </div>
             <!--/Footer-->
         </center>
 
