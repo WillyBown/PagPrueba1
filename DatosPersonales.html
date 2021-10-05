@@ -18,11 +18,11 @@
                 }
                 .flex-container{
                     display:flex;
-                    flex-flow: column wrap;
                     padding: 10px;
-                    align-content: center;
-                    margin: 10px
+                    margin: 10px;
                     justify-content: center;
+                    width: 100%;
+                    flex-wrap: wrap;
                 }
                 .flex-container div{
                     display:flex;
@@ -31,7 +31,6 @@
                     margin: 10px;
                     padding: 30px;
                     border: 2px solid black;
-                    align-content: center;
                 }
             </style>
         </head>
@@ -57,29 +56,35 @@
         <center style="margin:20px">
 
             <h2 style="color:gold" align="middle">Datos personales</h2>
-            <form style="color:gold" >
-                Direccion:               <input type="text" name="Direccion"> <br>
-                Fecha de nacimiento:     <input type="date" name="Fecha de Nacimiento"><br>
-                Edad:                    <input type="number" name="Edad" min="1" max="100"><br>
-                Sexo:                    <input id="Masculino" type="radio" name="Sexo">
-                                         <label for="Masculino">Masculino</label><br>
-                                         <input id="Femenino" type="radio" name="Sexo">
-                                         <label for="Femenino">Femenino</label><br>
-                                         <input id="Otro" type="radio" name="Sexo">
-                                         <label for="Otro">Otro</label><br>
-                Color preferido:         <select name="color">
-                                         <option>Rojo</option>
-                                         <option>Verde</option>
-                                         <option>Azul</option>
-                                         <option>Amarillo</option>
-                                         <option>Morado</option>
-                                         <option>Cafe</option>
-                                         <option>Negro</option>
-                                         <option>Blanco</option>
-                                         </select>
+            <div class="flex-container">
+                <div>
+                    <form style="color:gold" >
+                        Direccion:               <input type="text" name="Direccion"> <br>
+                        Fecha de nacimiento:     <input type="date" name="Fecha de Nacimiento"><br>
+                        Edad:                    <input type="number" name="Edad" min="1" max="100"><br>
+                        Sexo:                    <input id="Masculino" type="radio" name="Sexo">
+                                                 <label for="Masculino">Masculino</label><br>
+                                                 <input id="Femenino" type="radio" name="Sexo">
+                                                 <label for="Femenino">Femenino</label><br>
+                                                 <input id="Otro" type="radio" name="Sexo">
+                                                 <label for="Otro">Otro</label><br>
+                        Color preferido:         <select name="color">
+                                                 <option>Rojo</option>
+                                                 <option>Verde</option>
+                                                 <option>Azul</option>
+                                                 <option>Amarillo</option>
+                                                 <option>Morado</option>
+                                                 <option>Cafe</option>
+                                                 <option>Negro</option>
+                                                 <option>Blanco</option>
+                                                 </select>
 
-                <input type="submit" value="Registrar"> <br><br>
-            </form>
+                        <input type="submit" value="Registrar">
+                    </form>
+                </div>
+            </div>
+
+
             <!--/Contenido-->
             <!--Footer-->
             <img src="imgs/logo pentakill.png" alt="logo pentakill">

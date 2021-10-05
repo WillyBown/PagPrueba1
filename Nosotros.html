@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>QueSomos</title>
+    <style>
+        body{
+            background-image: url('imgs/fondo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        p{
+            color:gold;
+            font-size: 150%;
+            width: 560px;
+        }
+        .flex-container{
+            display:flex;
+            padding: 10px;
+            margin: 10px;
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+
+
+        }
+        .flex-container div{
+            display:flex;
+            flex-wrap: wrap;
+            background-color: brown;
+            margin: 10px;
+            padding: 30px;
+            border: 2px solid black;
+
+        }
+        #flex-start1 {
+          justify-content: flex-start;
+          float: right;
+          width: 15%;
+          background-color: crimson;
+        }
+        #flex-start2 {
+          justify-content: flex-start;
+          width: 15%;
+          background-color: crimson;
+        }
+
+        #center1 {
+          justify-content: center;
+          width: 40%;
+        }
+        #center2 {
+          justify-content: center;
+          width: 40%;
+        }
+        #flex-end1 {
+          justify-content: flex-end;
+          float: right;
+          width: 15%;
+
+          background-color: crimson;
+        }
+    </style>
+<body>
+        <!--barra navegacion-->
+        <div align="right" >
+            <a href="index.html" style="color:red">Home</a>
+            <a href="Nosotros.html" style="color:red">Nosotros</a>
+            <a href="comentario.html" style="color:red">Comenta</a>
+            <a href="login.html" style="color:red">Login</a>
+        </div>
+        <!--/barra navegacion-->
+        <!--Header-->
+        <h1 style="color:gold" align="middle" >Pentakill: Lost Chapter</h1>
+        <div class="flex-container">
+            <div>
+                <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner">
+            </div>
+        </div>
+        <!--/Header-->
+        <!--Contenido-->
+        <h2 style="color:gold" align="middle">Que Somos?</h2>
+        <div class="flex-container">
+            <div id="flex-start1">
+                <p>
+                    Listado de canciones:<br>
+                    - Predator<br>
+                    - Conqueror<br>
+                    - Aftershock<br>
+                    - Redemption<br>
+                    - Last Stand<br>
+                    - Executioner's Calling<br>
+                    - Edge of Night<br>
+                    - Lost Chapter<br>
+                    - Stormrazor<br>
+                    - Gathering Storm
+                </p>
+
+            </div>
+            <div  id="center1">
+                <p>Esta pagina esta creada con el objetivo de tener la discografia de la banda pentakill en un solo
+                    lugar y de forma ordenada. Principalmente se creo para promocionar el 3er disco de la banda pero
+                    luego de empezar con el 3er album la pagina se expandira a medida que se me ocurran nuevas cosas</p>
+            </div>
+            <div id="flex-end1">
+                <img src="https://pbs.twimg.com/media/DF2AHFvUAAEbbtj.jpg" alt="ICON1" width="200" height="200">
+                <img src="https://pbs.twimg.com/media/DF2AHmrVwAAgkez.jpg" alt="ICON2" width="200" height="200">
+                <img src="https://pbs.twimg.com/media/DF2AIEmUMAEs7vU.jpg" alt="ICON3" width="200" height="200">
+            </div>
+            <div id="flex-start2">
+                <p>Album completo:</p>
+                <iframe width="320" height="160" src="https://www.youtube.com/embed/videoseries?list=PLJP5_qSxMbkK9Rwbc7U3hJ2tw70hGTWe_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="center2">
+                <p>Autor de la pagina: Willy Bown<br>Estudiante de Ingenieria Civil en Computacion e Informatica en la Universidad de Atacama</p>
+            </div>
+
+
+
+        </div>
+
+        <center style="margin:20px">
+
+            <!--/Contenido-->
+            <!--Footer-->
+            <img src="imgs/logo pentakill.png" alt="logo pentakill">
+            <div class="flex-container">
+                <div>
+                    <p style="font-size: 100%" >
+                        Pagina creada por: Willy Bown <br>
+                        disculpen si me equivoque en algo que dormi 4 horas con suerte
+                    </p>
+                </div>
+            </div>
+            <!--/Footer-->
+        </center>
+</body>
+</html>

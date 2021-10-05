@@ -1,53 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
     <head>
         <meta charset="UTF-8">
-                <title>Comentario</title>
-                <style>
-                    body{
-                        background-image: url('imgs/fondo.jpg');
-                        background-repeat: no-repeat;
-                        background-attachment: fixed; 
-                        background-position: center;
-                    }
-                    p{
-                        color:gold;
-                        font-size: 150%;
-                        width: 560px;
-                    }
-                </style>
+        <title>Comentario</title>
+    <style>
+        body{
+            background-image: url('imgs/fondo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        p{
+            color:gold;
+            font-size: 150%;
+            width: 560px;
+        }
+        .flex-container{
+            display:flex;
+            padding: 10px;
+            margin: 10px;
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .flex-container div{
+            display:flex;
+            flex-wrap: wrap;
+            background-color: brown;
+            margin: 10px;
+            padding: 30px;
+            border: 2px solid black;
+        }
+    </style>
     </head>
     <body>
         <!--barra navegacion-->
         <div align="right" >
             <a href="index.html" style="color:red">Home</a>
+            <a href="Nosotros.html" style="color:red">Nosotros</a>
             <a href="comentario.html" style="color:red">Comenta</a>
             <a href="login.html" style="color:red">Login</a>
         </div>
         <!--/barra navegacion-->
         <!--Header-->
         <h1 style="color:gold" align="middle" >Pentakill: Lost Chapter</h1>
-        <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner"><br>
+        <div class="flex-container">
+            <div>
+                <img src="imgs/pentakill banner.jpg" width="100%" alt="Pentakill Banner">
+            </div>
+        </div>
         <!--/Header-->
         <!--Contenido-->
         <center style="margin:20px">
 
             <h2 style="color:gold" align="middle">Comenta</h2>
-            <form>
-                <p>Ingresa tu nombre completo: <br><input type="text" name="nombrecompleto"></p>
-                <p>Deja un mensaje:<br>
-                <textarea width="10%" name="mensaje"></textarea>
-                </p>
-                <input type="submit" value="Enviar la información"><br><br>
-            </form>
+            <div class="flex-container">
+                <div>
+                    <form>
+                    <p>Ingresa tu nombre completo: <br><input type="text" name="nombrecompleto"></p>
+                    <p>Deja un mensaje:<br>
+                    <textarea width="10%" name="mensaje"></textarea>
+                    </p>
+                    <input type="submit" value="Enviar la información"><br><br>
+                    </form>
+                </div>
+            </div>
+
 
             <!--/Contenido-->
             <!--Footer-->
             <img src="imgs/logo pentakill.png" alt="logo pentakill">
-            <p style="font-size: 100%">
-                Pagina creada por: Willy Bown <br>
-                disculpen si me equivoque en algo que dormi 4 horas con suerte
-            </p>
+            <div class="flex-container">
+                <div>
+                    <p style="font-size: 100%">
+                        Pagina creada por: Willy Bown <br>
+                        disculpen si me equivoque en algo que dormi 4 horas con suerte
+                    </p>
+                </div>
+            </div>
             <!--/Footer-->
         </center>
     </body>
