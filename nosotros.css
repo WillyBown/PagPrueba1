@@ -1,0 +1,52 @@
+body{
+    background-image: url('imgs/fondoNosotros.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+p{
+    color:gold;
+    font-size: 150%;
+    width: 560px;
+}
+.grid-container{
+    justify-content: center;
+    display:grid;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    grid-template-areas: 'texto texto texto'
+    'img1 img2 img3'
+    'autor autor autor';
+}
+.grid-container div{
+    justify-content: center;
+    display:grid;
+    flex-wrap: wrap;
+    background-color: crimson;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid black;
+}
+.texto{
+    grid-area: texto;
+}
+.img1{
+    grid-area: img1;
+    border-radius: 15px 50px 30px;
+}
+.img2{
+    grid-area: img2;
+    border-radius: 15px 50px 30px;
+}
+.img3{
+    grid-area: img3;
+    border-radius: 15px 50px 30px;
+}
+.autor{
+    grid-area: autor;
+    font-family: cursive;
+    font-style: oblique;
+}
