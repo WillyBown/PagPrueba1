@@ -6,9 +6,10 @@ body{
 }
 p{
     color:gold;
-    font-size: 150%;
-    width: 560px;
+    font-size: 100%;
+    width: 300px;
 }
+
 .flex-container{
     display:flex;
     padding: 10px;
