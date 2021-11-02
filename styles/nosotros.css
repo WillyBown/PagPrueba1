@@ -1,9 +1,10 @@
+:root{
+    --main-bg-color: black;
+}
 body{
-    background-image: url('imgs/fondoNosotros.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    }
+  background-color: var(--main-bg-color);
+}
+
 p{
     color:gold;
     font-size: 150%;
