@@ -13,7 +13,7 @@
     $Sexo= $_POST['Sexo'];
     $ColorPreferido= $_POST['ColorPreferido'];
 
-    $sql= "INSERT INTO usuarios VALUES ('$Nombre','$Apellidos','$Usuario','$Contraseña','$Email','$Direccion','$FechaNacimiento','$Edad','$Sexo','$ColorPreferido')";
+    $sql= "INSERT INTO `usuarios`(`Nombre`, `Apellidos`, `Usuario`, `Contraseña`, `Email`, `Direccion`, `FechaNacimiento`, `Edad`, `Sexo`, `ColorPreferido`) VALUES('$Nombre','$Apellidos','$Usuario','$Contraseña','$Email','$Direccion','$FechaNacimiento','$Edad','$Sexo','$ColorPreferido')";
     $query= mysqli_query($con,$sql);
 
     if($query){

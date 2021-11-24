@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aeb29d91-7aec-4468-9e17-848d8bb8076f" name="Default Changelist" comment="Login y recuperado de clave agreagado satisfactoriamente y pagina de administrador agregada" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1yEW4yewJEJsjFllGpusI5fiBll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gamerzone\Desktop\Proyectos Python\Tarea1 WillyBown\Styles" />
+      <recent name="C:\Users\Gamerzone\Desktop\Proyectos Python\Tarea1 WillyBown\imgs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gamerzone\Desktop\Proyectos Python\Tarea1semestre4\imgs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Tarea1semestre4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb29d91-7aec-4468-9e17-848d8bb8076f" name="Default Changelist" comment="" />
+      <created>1631817040345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631817040345</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Agregado de css a login datos personales y index">
+      <created>1633322272576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633322272576</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agrega la pestaña nosotros y se hacen cambios menores en el css de las otras paginas">
+      <created>1633415996132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633415996132</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se Cambia por completo nosotros y se implementa archivo css externo personalizado para este">
+      <created>1633528131348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633528131348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="agregado de barra de navegacion">
+      <created>1633529833836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529833836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="agregado de carpeta css al resto de pags faltantes">
+      <created>1635274086433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635274086433</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adicion de bootstrap 5 a la pagina">
+      <created>1635311343780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635311343780</updated>
+    </task>
+    <task id="LOCAL-00007" summary="avance de renovacion completa de la pagina">
+      <created>1635827558927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635827558927</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Termino de la renovacion completa de la pagina y agregado de un pop up en remplazo a la pagina login">
+      <created>1635919506306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635919506306</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cambio a html de los archivos y se agrega conexion">
+      <created>1636380046803</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636380046803</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adhicion satisfactoria de base de datos en el formulario de registro">
+      <created>1636506167300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636506167301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adicion de la funcion de borrado de cuenta">
+      <created>1636525813081</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636525813082</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Mejora de implementacion de la funcion de borrado">
+      <created>1636527258093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636527258093</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Agregado de index y login mas organico pero no funcional del todo por el momento">
+      <created>1637393867199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637393867199</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Login y recuperado de clave agreagado satisfactoriamente y pagina de administrador agregada">
+      <created>1637718939866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637718939866</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Agregado de css a login datos personales y index" />
+    <MESSAGE value="Se agrega la pestaña nosotros y se hacen cambios menores en el css de las otras paginas" />
+    <MESSAGE value="Se Cambia por completo nosotros y se implementa archivo css externo personalizado para este" />
+    <MESSAGE value="agregado de barra de navegacion" />
+    <MESSAGE value="agregado de carpeta css al resto de pags faltantes" />
+    <MESSAGE value="Adicion de bootstrap 5 a la pagina" />
+    <MESSAGE value="avance de renovacion completa de la pagina" />
+    <MESSAGE value="Termino de la renovacion completa de la pagina y agregado de un pop up en remplazo a la pagina login" />
+    <MESSAGE value="cambio a html de los archivos y se agrega conexion" />
+    <MESSAGE value="Adhicion satisfactoria de base de datos en el formulario de registro" />
+    <MESSAGE value="Adicion de la funcion de borrado de cuenta" />
+    <MESSAGE value="Mejora de implementacion de la funcion de borrado" />
+    <MESSAGE value="Agregado de index y login mas organico pero no funcional del todo por el momento" />
+    <MESSAGE value="Login y recuperado de clave agreagado satisfactoriamente y pagina de administrador agregada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login y recuperado de clave agreagado satisfactoriamente y pagina de administrador agregada" />
+  </component>
+</project>
